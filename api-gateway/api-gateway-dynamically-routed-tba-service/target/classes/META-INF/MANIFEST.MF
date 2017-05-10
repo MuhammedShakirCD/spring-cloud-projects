@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: tbaservice
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: MuhammedShakir
+Implementation-Vendor-Id: com.cd.poc.dynamically.routed.tbaservice
+Build-Jdk: 1.8.0_77
+Implementation-URL: http://projects.spring.io/spring-boot/tbaservice/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
