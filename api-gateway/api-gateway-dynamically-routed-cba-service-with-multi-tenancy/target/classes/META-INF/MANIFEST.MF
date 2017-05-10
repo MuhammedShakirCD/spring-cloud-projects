@@ -1,10 +1,12 @@
 Manifest-Version: 1.0
-Implementation-Title: cbaservice
+Implementation-Title: api-gateway-dynamically-routed-cba-service-with-
+ multi-tenancy
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: MuhammedShakir
 Implementation-Vendor-Id: com.cd.poc.dynamically.routed.cbaservice
 Build-Jdk: 1.8.0_77
-Implementation-URL: http://projects.spring.io/spring-boot/cbaservice/
+Implementation-URL: http://projects.spring.io/spring-boot/api-gateway-
+ dynamically-routed-cba-service-with-multi-tenancy/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 

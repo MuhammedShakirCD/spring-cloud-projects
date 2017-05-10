@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Implementation-Title: configclient
+Implementation-Title: config-client
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: MuhammedShakir
 Implementation-Vendor-Id: com.rpicloud
