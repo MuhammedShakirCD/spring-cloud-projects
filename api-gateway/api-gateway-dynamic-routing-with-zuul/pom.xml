@@ -9,11 +9,11 @@
 
        <!-- Demo to Parvez -->   
 	<groupId>com.cd.poc.zuulserver</groupId>
-	<artifactId>zuulserver</artifactId>
+	<artifactId>api-gateway-dynamic-routing-with-zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>zuulserver</name>
+	<name>api-gateway-dynamic-routing-with-zuul</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
