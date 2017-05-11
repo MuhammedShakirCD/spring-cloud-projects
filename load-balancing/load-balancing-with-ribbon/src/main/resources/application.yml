@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: spring-cloud-ribbon-client
+
+server:
+  port: 8888
+
+
+
+
+# Discovery Server Access (Client Service that invokes call on Person Service)
+#  1. Define URL of registration server (defaultZone)
+#  2. Reduce lease-renewal time so processes register more quickly
+eureka:
+  instance:
+     leaseRenewalIntervalInSeconds: 5   # DO NOT DO THIS IN PRODUCTION
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+      
+
+spring-cloud-ribbon-service:
+  ribbon:
+    eureka:
+      enabled: true # if false, then ribbon does not use eureka; instead uses the below given static list of servers #
+#    listOfServers: localhost:9092,localhost:9999
+#    ServerListRefreshInterval: 15000
